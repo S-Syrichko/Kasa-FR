@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+$font-content: 'Montserrat', sans-serif;
+
+header, body, footer {
+    font-family: $font-content;
+    font-size: 18px;
+    color: $font-color1;
+    a {
+        color: $font-color1;   
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+}

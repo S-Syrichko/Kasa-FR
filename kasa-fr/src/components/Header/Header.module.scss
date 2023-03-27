@@ -1,11 +1,12 @@
-@import "../../styles/index.scss";
+@import "../../styles/utils/variables";
 
 
-.container {
+
+.root {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 5%;
+  margin: 40px 5% 20px;
 
   nav {
     width: 20%;

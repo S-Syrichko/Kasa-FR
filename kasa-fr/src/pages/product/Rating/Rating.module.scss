@@ -1,0 +1,12 @@
+@import "../../../styles/utils/variables";
+
+.root {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        height: 30px;
+        width: 30px;
+    }
+}

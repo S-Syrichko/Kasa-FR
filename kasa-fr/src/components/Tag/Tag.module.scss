@@ -1,0 +1,19 @@
+@import "../../styles/index.scss";
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25px;
+    min-width: 115px;
+    background-color: $font-color1;
+    border-radius: 10px;
+    margin-right: 10px;
+
+    p {
+        font-size: 14px;
+        color: #ffffff;
+        padding: 0 10px;
+    }
+}

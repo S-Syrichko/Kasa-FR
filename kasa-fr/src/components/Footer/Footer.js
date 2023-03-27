@@ -1,15 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.scss";
+import logo from "../../data/media/logo.png";
 
 const Footer = () => {
   return (
-    <footer className={styles.container}>
-      <img
-        className="logo--footer"
-        src="./media/logo.png"
-        alt="Logo Kasa"
-      ></img>
-      © 2020 Kasa. All rights reserved
+    <footer className={styles.root}>
+      <img className="logo--footer" src={logo} alt="Logo Kasa"></img>
+      <p>© 2020 Kasa. All rights reserved</p>
     </footer>
   );
 };

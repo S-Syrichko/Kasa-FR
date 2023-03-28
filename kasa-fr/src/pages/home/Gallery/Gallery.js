@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./Gallery.module.scss";
 
 import data from "../../../data/logements.json";
-import Card from "../../../components/Card/Card.js";
+import Thumb from "../../../components/Thumb/Thumb.js";
 
 
 const Gallery = () => {
@@ -10,7 +10,7 @@ const Gallery = () => {
     <div className={styles.root}>
       {data.accomodations.map((item) => (
         <div key={item.id}>
-          <Card item={item} />
+          <Thumb item={item} />
         </div>
       ))}
     </div>

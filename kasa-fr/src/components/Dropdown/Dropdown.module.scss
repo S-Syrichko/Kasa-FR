@@ -1,4 +1,5 @@
 @import "../../styles/utils/variables";
+@import "../../styles/utils/mixins";
 
 .root,
 .root_half {
@@ -9,10 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $font-color1;
+    background-color: $color-primary;
     color: #ffffff;
     height: 50px;
-    padding: 10px 20px;
+    padding: 0 20px;
     border-radius: 10px;
 
     .arrow {
@@ -22,16 +23,33 @@
     .arrow_open {
       transform: rotate(180deg);
       transition: transform 0.2s ease-in-out;
-
     }
   }
   .content {
     padding: 40px 20px 20px 20px;
-    background-color: #f6f6f6;
+    background-color: $color-tertiary;
     border-radius: 0 0 10px 10px;
     position: relative;
     top: -10px;
     z-index: -1;
+  }
+  @include display-mobile{
+    .title {
+      font-size: 13px;
+      height: 30px;
+      border-radius: 5px;
+      padding: 0 10px;
+
+      .arrow, .arrow_open{
+        height: 10px;
+      }
+    }
+    .content{
+      padding: 25px 10px 5px 10px;
+      font-size: 12px;
+      line-height: 17px;
+      min-height: 150px;
+    }
   }
 }
 
@@ -39,4 +57,10 @@
   width: 45%;
   font-size: 18px;
   line-height: 26px;
+  @include display-mobile{
+    width: 100%;
+  }
+  @include display-tablet {
+    width: 100%;
+  }
 }

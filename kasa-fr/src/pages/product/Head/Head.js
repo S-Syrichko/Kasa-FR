@@ -1,9 +1,9 @@
 import React from "react";
 import Tag from "../../../components/Tag/Tag.js";
 import Rating from "../Rating/Rating.js";
-import styles from "./Banner.module.scss";
+import styles from "./Head.module.scss";
 
-const Banner = (props) => {
+const Head = (props) => {
   const { product } = props;
   return (
     <div className={styles.root}>
@@ -31,4 +31,4 @@ const Banner = (props) => {
   );
 };
 
-export default Banner;
+export default Head;

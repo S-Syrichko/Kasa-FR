@@ -22,15 +22,23 @@ const Carrousel = (props) => {
   return (
     <div className={styles.root}>
       <img className={styles.slide} src={images[currentImage]} alt="carousel" />
-      <button
-        className={`${styles.arrow} ${styles.prev}`}
-        onClick={goToPrevious}
-      >
-        <ArrowLeft alt={`previous`} />
-      </button>
-      <button className={`${styles.arrow} ${styles.next}`} onClick={goToNext}>
-        <ArrowRight alt={`next`} />
-      </button>
+      {images && images.length > 1 && (
+        <>
+          <p>{`${currentImage + 1}/${images.length}`}</p>
+          <button
+            className={`${styles.arrow} ${styles.prev}`}
+            onClick={goToPrevious}
+          >
+            <ArrowLeft alt={`previous`} />
+          </button>
+          <button
+            className={`${styles.arrow} ${styles.next}`}
+            onClick={goToNext}
+          >
+            <ArrowRight alt={`next`} />
+          </button>
+        </>
+      )}
     </div>
   );
 };

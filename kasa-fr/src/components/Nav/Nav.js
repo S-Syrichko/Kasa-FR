@@ -1,11 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav>
-      <Link to="/">Accueil</Link>
-      <Link to="/about">A Propos</Link>
+      <NavLink
+        to="/"
+        style={({ isActive }) => {
+          return {
+            textDecorationLine: isActive ? "underline" : "",
+          };
+        }}
+      >
+        Accueil
+      </NavLink>
+      <NavLink
+        to="/about"
+        style={({ isActive }) => {
+          return {
+            textDecorationLine: isActive ? "underline" : "",
+          };
+        }}
+      >
+        A Propos
+      </NavLink>
     </nav>
   );
 };

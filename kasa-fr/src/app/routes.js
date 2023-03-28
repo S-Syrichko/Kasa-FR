@@ -6,10 +6,11 @@ import Product from "../pages/product/Product.js";
 import NotFound from "../pages/not-found_404/NotFound.js";
 
 const AppRoutes = () => {
+
   return (
     <Routes>
       <Route index element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<About />} errorElement={<NotFound />} />
       <Route path="/product/:productId" element={<Product />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

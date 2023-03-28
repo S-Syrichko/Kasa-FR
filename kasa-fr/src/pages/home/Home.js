@@ -1,11 +1,12 @@
 import React from "react";
-import Banner from "./Banner/Banner.js";
+import BannerHome from "./BannerHome/BannerHome.js";
 import Gallery from "./Gallery/Gallery.js";
+
 
 const Home = () => {
   return (
     <div className='Home'>
-      <Banner />
+      <BannerHome />
       <Gallery />
     </div>
   );

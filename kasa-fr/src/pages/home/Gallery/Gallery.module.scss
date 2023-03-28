@@ -1,11 +1,17 @@
 @import "../../../styles/utils/variables";
+@import "../../../styles/utils/mixins";
 
 .root {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    background-color: #f7f7f7;
-    border-radius: 25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: $color-tertiary;
+  border-radius: 25px;
+  @include display-mobile {
+    background-color: $color-secondary;
+  }
+  @include display-tablet {
+    background-color: $color-secondary;
+  }
 }

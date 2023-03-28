@@ -1,2 +1,11 @@
-$font-color1: #ff6060;
-$font-color2: #ffffff;
+$color-primary: #ff6060;
+$color-secondary: #ffffff;
+$color-tertiary: #f7f7f7;
+$color-footer: #000000;
+
+
+$breakpoints : (
+    mobile: 320px,
+    tablet: 641px,
+    desktop: 1025px,
+);

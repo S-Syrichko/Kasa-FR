@@ -1,0 +1,15 @@
+@import "../../styles/utils/variables";
+@import "../../styles/utils/mixins";
+
+.productDetails {
+  display: flex;
+  justify-content: space-between;
+  @include display-mobile {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  @include display-tablet {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

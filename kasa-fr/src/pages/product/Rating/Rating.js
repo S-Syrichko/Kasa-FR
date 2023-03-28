@@ -11,19 +11,11 @@ const Rating = (props) => {
   const elements = [];
 
   for (let i = 0; i < rating; i++) {
-    elements.push(
-      <span key={`starPink-${i}`}>
-        <StarPink />
-      </span>
-    );
+    elements.push(<StarPink key={`starPink-${i}`} />);
   }
 
   for (let i = 0; i < remainingPoints; i++) {
-    elements.push(
-      <span key={`starGrey-${i}`}>
-        <StarGrey />
-      </span>
-    );
+    elements.push(<StarGrey key={`starGrey-${i}`} />);
   }
   return <div className={styles.root}>{elements}</div>;
 };

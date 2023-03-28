@@ -5,12 +5,12 @@ $font-content: 'Montserrat', sans-serif;
 header, body, footer {
     font-family: $font-content;
     font-size: 18px;
-    color: $font-color1;
+    color: $color-primary;
     a {
-        color: $font-color1;   
+        color: $color-primary;   
     }
 
     h1 {
-        font-size: 46px;
+        font-size: 48px;
     }
 }

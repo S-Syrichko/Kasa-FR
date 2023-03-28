@@ -26,9 +26,6 @@ const dropdownTexts = [
 ];
 
 const About = () => {
-  const errorFactory = () => {
-    throw new Error('Oh no');
-  }
   
   return (
     <div>

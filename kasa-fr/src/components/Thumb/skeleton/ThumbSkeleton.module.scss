@@ -1,0 +1,24 @@
+@import "../../../styles/utils/variables";
+@import "../../../styles/utils/mixins";
+@import "../../../styles/utils/keyframes";
+
+.skeleton {
+    width: 340px;
+    height: 340px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: $color-primary;
+    background: linear-gradient(
+      100deg,
+      $color-primary 40%,
+      lighten($color-primary, 10%) 80%,
+      lighten($color-primary, 1%) 60%
+    ) $color-tertiary;
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+    @include display-mobile { 
+      height: 255px;
+      margin: 0 0 20px 0;
+    }
+  }

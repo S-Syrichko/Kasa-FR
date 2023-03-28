@@ -9,8 +9,8 @@ const AppRoutes = () => {
 
   return (
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="/about" element={<About />} errorElement={<NotFound />} />
+      <Route exact path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="/product/:productId" element={<Product />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

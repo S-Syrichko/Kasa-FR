@@ -1,6 +1,7 @@
 @import "../../styles/utils/variables";
 @import "../../styles/utils/mixins";
 
+
 .root {
   display: flex;
   flex-direction: column;
@@ -57,3 +58,6 @@
     margin: 20px 5px;
   }
 }
+
+
+

@@ -4,10 +4,10 @@ import { useParams } from "react-router-dom";
 import Dropdown from "../../components/Dropdown/Dropdown.js";
 import data from "../../data/logements.json";
 import Head from "./Head/Head.js";
-import Carrousel from "./Carrousel/Carrousel.js";
+import Carrousel from "../../components/Carrousel/Carrousel.js";
 import NotFound from "../not-found_404/NotFound.js";
 
-const Product = (props) => {
+const Product = () => {
   const { productId } = useParams();
   const [product, setProduct] = useState({});
   const [error, setError] = useState(false);

@@ -1,0 +1,38 @@
+@import "../../../styles/utils/variables";
+@import "../../../styles/utils/mixins";
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 5%;
+  img {
+    height: 70px;
+  }
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    font-size: 24px;
+
+    a {
+      margin-left: 60px;
+      white-space: nowrap;
+    }
+  }
+
+  @include display-mobile {
+    margin: 20px 5%;
+
+    img {
+      height: 45px;
+    }
+    nav {
+      font-size: 12px;
+
+      a {
+        margin-left: 10px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

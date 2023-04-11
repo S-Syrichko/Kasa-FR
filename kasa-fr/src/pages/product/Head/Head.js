@@ -1,6 +1,6 @@
 import React from "react";
 import Tag from "../../../components/Tag/Tag.js";
-import Rating from "../Rating/Rating.js";
+import Rating from "../../../components/Rating/Rating.js";
 import styles from "./Head.module.scss";
 
 const Head = (props) => {

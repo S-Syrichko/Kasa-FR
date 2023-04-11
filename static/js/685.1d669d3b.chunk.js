@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkasa_fr=self.webpackChunkkasa_fr||[]).push([[685],{849:function(a,e,r){r.r(e),r.d(e,{default:function(){return u}});r(791);var s="BannerHome_root__ervqw",n=r.p+"static/media/banner-home.19221376a0aa2549c135.png",t=r(184),u=function(){return(0,t.jsxs)("div",{className:s,children:[(0,t.jsx)("img",{src:n,alt:"nature"}),(0,t.jsxs)("h1",{children:["Chez vous,",(0,t.jsx)("br",{})," partout et ailleurs"]})]})}}}]);
+//# sourceMappingURL=685.1d669d3b.chunk.js.map

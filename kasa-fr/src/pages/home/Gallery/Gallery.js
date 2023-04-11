@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <div className={styles.root}>
       {data.accomodations.map((item) => (
-        <div key={item.id}>
+        <div className={styles.card} key={item.id}>
           <Suspense fallback={<ThumbSkeleton />}>
             <Thumb item={item} />
           </Suspense>

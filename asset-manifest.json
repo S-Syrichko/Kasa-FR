@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Kasa-FR/static/css/main.f0633f04.css",
-    "main.js": "/Kasa-FR/static/js/main.7f722057.js",
+    "main.css": "/Kasa-FR/static/css/main.1229c304.css",
+    "main.js": "/Kasa-FR/static/js/main.bbd92702.js",
     "static/css/685.c75ef333.chunk.css": "/Kasa-FR/static/css/685.c75ef333.chunk.css",
     "static/js/685.1d669d3b.chunk.js": "/Kasa-FR/static/js/685.1d669d3b.chunk.js",
-    "static/css/677.d9641db7.chunk.css": "/Kasa-FR/static/css/677.d9641db7.chunk.css",
+    "static/css/677.5ac7ba0f.chunk.css": "/Kasa-FR/static/css/677.5ac7ba0f.chunk.css",
     "static/js/677.aa71f25a.chunk.js": "/Kasa-FR/static/js/677.aa71f25a.chunk.js",
     "static/media/banner-about.png": "/Kasa-FR/static/media/banner-about.640955dab8c7bff25514.png",
     "static/media/banner-home.png": "/Kasa-FR/static/media/banner-home.19221376a0aa2549c135.png",
@@ -14,15 +14,15 @@
     "static/media/arrow-left.svg": "/Kasa-FR/static/media/arrow-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
     "static/media/star-grey.svg": "/Kasa-FR/static/media/star-grey.7e4ba6032d7d80ecc30aa389973cef95.svg",
     "static/media/star-pink.svg": "/Kasa-FR/static/media/star-pink.6430150c126a3adf92c132c52c9c7428.svg",
-    "main.f0633f04.css.map": "/Kasa-FR/static/css/main.f0633f04.css.map",
-    "main.7f722057.js.map": "/Kasa-FR/static/js/main.7f722057.js.map",
+    "main.1229c304.css.map": "/Kasa-FR/static/css/main.1229c304.css.map",
+    "main.bbd92702.js.map": "/Kasa-FR/static/js/main.bbd92702.js.map",
     "685.c75ef333.chunk.css.map": "/Kasa-FR/static/css/685.c75ef333.chunk.css.map",
     "685.1d669d3b.chunk.js.map": "/Kasa-FR/static/js/685.1d669d3b.chunk.js.map",
-    "677.d9641db7.chunk.css.map": "/Kasa-FR/static/css/677.d9641db7.chunk.css.map",
+    "677.5ac7ba0f.chunk.css.map": "/Kasa-FR/static/css/677.5ac7ba0f.chunk.css.map",
     "677.aa71f25a.chunk.js.map": "/Kasa-FR/static/js/677.aa71f25a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0633f04.css",
-    "static/js/main.7f722057.js"
+    "static/css/main.1229c304.css",
+    "static/js/main.bbd92702.js"
   ]
 }
